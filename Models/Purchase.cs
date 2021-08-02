@@ -11,6 +11,5 @@ namespace GameAchieves.Models
         public string Person { get; set; }
         public string Email { get; set; }
         public int GameId { get; set; }
-         
     }
 }
