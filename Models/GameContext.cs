@@ -22,6 +22,8 @@ namespace GameAchieves.Models
             db.Games.Add(new Game { Name = "Battlefield1", Company = "Dice", Price = 19.99 });
             db.Games.Add(new Game { Name = "Battlefield2", Company = "Dice", Price = 19.99 });
             db.Games.Add(new Game { Name = "Battlefield3", Company = "Dice", Price = 19.99 });
+
+            base.Seed(db);
         }
     }
 }
